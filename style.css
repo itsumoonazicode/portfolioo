@@ -1,4 +1,70 @@
+/*
+ * フォント設定
+ */
+@font-face {
+	font-family: 'Sawarabi Mincho';
+	src: url('fonts/SawarabiMincho-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Sawarabi Gothic';
+	src: url('fonts/SawarabiGothic-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Dela Gothic';
+	src: url('fonts/DelaGothicOne-Regular.ttf') format('truetype');
+}
+
+body {
+	background-color: #fff8a6;
+	color: #8d1f0e;
+	font-family: 'Sawarabi Gothic';
+}
+
+
+/*
+ * wrapper, containerクラス
+ */
 .wrapper {
 	width: 880px;
 	margin: 0 auto;
+}
+
+.wrapper-headline-section {
+	margin: 48px 0 24px;
+}
+
+.wrapper-subhead-section {
+	margin: 16px 0 8px;
+}
+
+/*
+ * 見出しクラス
+ */
+.title {
+	font-family: 'Sawarabi Mincho';
+	font-weight: 400;
+}
+
+.site-title {
+	font-size: 4rem;
+	font-family: 'Dela Gothic';
+}
+
+.section-title {
+	font-size: 3rem;
+}
+
+.section-subhead {
+	font-size: 2.5rem;
+}
+
+.item-title {
+	font-size: 2rem;
+}
+
+/*
+ * ペンペンプリンクラス
+ */
+.penpenprin {
+	font-family: 'Dela Gothic';
 }
