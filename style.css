@@ -1,15 +1,43 @@
+html {
+	font-size: 10px;
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 16px;
+	}
+}
+
 body {
 	background-color: #fff8a6;
 	color: #8d1f0e;
 	font-family: 'Sawarabi Gothic', sans-serif;
+	font-size: 16px;
 }
 
 /*
  * wrapper, containerクラス
  */
+
 .wrapper {
-	width: 880px;
-	margin: 0 auto;
+	width: 88vw;
+	margin: 0 auto;	
+}
+ 
+@media (min-width: 576px) {
+	.wrapper {
+		max-width: 506px;
+	}	 
+}
+@media (min-width: 768px) {
+	.wrapper {
+		max-width: 675px;
+	}	 
+}
+@media (min-width: 992px) {
+	.wrapper {
+		max-width: 880px;
+	}	 
 }
 
 .wrapper-headline-section {
