@@ -48,6 +48,10 @@ body {
 	margin: 16px 0 8px;
 }
 
+.terms-container {
+	margin-bottom: .4rem;
+}
+
 /*
  * 見出しクラス
  */
@@ -71,6 +75,15 @@ body {
 
 .item-title {
 	font-size: 2rem;
+}
+
+.term { /* 説明リストのdt */
+	font-size: 1.85rem;
+}
+@media (min-width: 768px) {
+	.term {
+		font-size: 1.45rem;
+	}	 
 }
 
 /*
