@@ -16,12 +16,19 @@ body {
 }
 
 /*
+ * リセットCSSを元に戻す
+ */
+ul {
+	padding: revert;
+}
+
+/*
  * wrapper, containerクラス
  */
 
 .wrapper {
 	width: 88vw;
-	margin: 0 auto;	
+	margin: 0 auto;
 }
  
 @media (min-width: 576px) {
@@ -45,11 +52,11 @@ body {
 }
 
 .wrapper-subhead-section {
-	margin: 16px 0 8px;
+	margin: 32px 0 8px;
 }
 
 .terms-container {
-	margin-bottom: .4rem;
+	margin-bottom: .6rem;
 }
 
 /*
@@ -91,4 +98,26 @@ body {
  */
 .penpenprin {
 	font-family: 'Dela Gothic One', cursive;
+}
+
+/*
+ * 目次
+ */
+.toc > ul > li {
+	margin-top: 4px;
+}
+
+/*
+ * ユーティリティクラス
+ */
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }
